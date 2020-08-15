@@ -19,6 +19,5 @@ if(!localStorage.getItem('name')) {
 }
 
 myButton.onclick = function() {
-  console.log("Hello World")
   setUserName();
 }
